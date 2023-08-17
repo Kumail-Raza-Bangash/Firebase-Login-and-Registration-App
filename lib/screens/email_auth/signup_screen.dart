@@ -93,25 +93,45 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       padding: EdgeInsets.all(15),
                       child: Column(
                         children: [
-                          TextField(
+                          TextFormField(
                             controller: emailController,
-                            decoration:
-                                InputDecoration(labelText: "Email Address"),
+                            decoration: const InputDecoration(
+                              labelText: 'Your Email',
+                              icon: const Padding(
+                                padding: const EdgeInsets.only(top: 15.0),
+                                child: const Icon(Icons.email),
+                              ),
+                            ),
                           ),
                           SizedBox(
                             height: 10,
                           ),
-                          TextField(
+                          TextFormField(
                             controller: passwordController,
-                            decoration: InputDecoration(labelText: "Password"),
+                            decoration: const InputDecoration(
+                                labelText: 'Password',
+                                icon: const Padding(
+                                  padding: const EdgeInsets.only(top: 15.0),
+                                  child: const Icon(Icons.lock),
+                                )),
+                            validator: (val) =>
+                                val!.length < 6 ? 'Password too short.' : null,
+                            obscureText: true,
                           ),
                           SizedBox(
                             height: 10,
                           ),
-                          TextField(
+                          TextFormField(
                             controller: cPasswordController,
-                            decoration:
-                                InputDecoration(labelText: "Confirm Password"),
+                            decoration: const InputDecoration(
+                                labelText: 'Password',
+                                icon: const Padding(
+                                  padding: const EdgeInsets.only(top: 15.0),
+                                  child: const Icon(Icons.lock),
+                                )),
+                            validator: (val) =>
+                                val!.length < 6 ? 'Password too short.' : null,
+                            obscureText: true,
                           ),
                           SizedBox(
                             height: 20,

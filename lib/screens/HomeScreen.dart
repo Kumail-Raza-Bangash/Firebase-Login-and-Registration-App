@@ -87,15 +87,17 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            // ignore: deprecated_member_use
-            TyperAnimatedTextKit(
-              text: [
-                userEmail!,
-              ],
-              isRepeatingAnimation: true, // Animation stops after the last text
-              textStyle: const TextStyle(fontSize: 18.0),
-              textAlign: TextAlign.center,
-            ),
+            if (userEmail != null)
+              // ignore: deprecated_member_use
+              TyperAnimatedTextKit(
+                text: [
+                  userEmail!,
+                ],
+                isRepeatingAnimation:
+                    true, // Animation stops after the last text
+                textStyle: const TextStyle(fontSize: 18.0),
+                textAlign: TextAlign.center,
+              ),
           ],
         ),
       ),

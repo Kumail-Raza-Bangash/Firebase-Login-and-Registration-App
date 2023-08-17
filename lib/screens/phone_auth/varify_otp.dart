@@ -50,11 +50,17 @@ class _VerifyOtpScreenState extends State<VerifyOtpScreen> {
               padding: EdgeInsets.all(15),
               child: Column(
                 children: [
-                  TextField(
+                  TextFormField(
                     controller: otpController,
                     maxLength: 6,
-                    decoration: InputDecoration(
-                        labelText: "6-Digit OTP", counterText: ""),
+                    decoration: const InputDecoration(
+                      labelText: "6-Digit OTP",
+                      counterText: "",
+                      icon: const Padding(
+                        padding: const EdgeInsets.only(top: 15.0),
+                        child: const Icon(Icons.phone),
+                      ),
+                    ),
                   ),
                   SizedBox(
                     height: 20,

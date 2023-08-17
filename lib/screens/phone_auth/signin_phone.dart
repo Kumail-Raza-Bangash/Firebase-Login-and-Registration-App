@@ -60,9 +60,15 @@ class _SignInWithPhoneState extends State<SignInWithPhone> {
               padding: EdgeInsets.all(15),
               child: Column(
                 children: [
-                  TextField(
+                  TextFormField(
                     controller: phoneController,
-                    decoration: InputDecoration(labelText: "Phone Number"),
+                    decoration: const InputDecoration(
+                      labelText: 'Phone Number',
+                      icon: const Padding(
+                        padding: const EdgeInsets.only(top: 15.0),
+                        child: const Icon(Icons.phone),
+                      ),
+                    ),
                   ),
                   SizedBox(
                     height: 20,
