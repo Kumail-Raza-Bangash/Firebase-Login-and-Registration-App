@@ -5,13 +5,32 @@ The app features a simple and intuitive user interface that makes it easy to sig
 
 
 ## Screenshots: 
-Login with email and password: 
+Login Screen: 
+![1](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/7628f883-dc2c-4bbc-b811-383f0391bd72)
+
+SignUp Screen: 
+![2](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/a93414cd-72f9-4763-ba7c-95f6f9086c69)
 
 Login with phone number: 
+![3](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/d1f448c2-a200-4bab-b281-e2f275a4950f)
 
-Register a new user: 
+OTP Screen: 
+![4](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/a29fb8e9-2585-4daa-8b9d-a431929a384b)
+
+User Registration: 
+![5](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/3db5e854-79ea-4e13-8161-06838b3b1152)
+
+Login with email and password: 
+![6](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/12b975d0-b459-42e3-b997-d3fbe9a3cb58)
+
+Loading Screen: 
+![7](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/a91d1c7b-d8fc-49fa-aeac-0dc80ceacbe9)
+
+HomePage Screen: 
+![8](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/34872104-e1af-4111-a47a-27adaa114e0f)
 
 Responsive Drawer: 
+![9](https://github.com/Kumail-Raza-Bangash/Firebase-Login-and-Registration-App/assets/60749099/f27d93d4-1491-45dc-9c45-e4442509dd43)
 
 
 ## Technologies used
